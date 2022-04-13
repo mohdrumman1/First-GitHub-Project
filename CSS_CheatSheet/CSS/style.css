@@ -10,4 +10,9 @@ body{
     font: normal 18px Arial, Helvetica, sans-serif;
 
     line-height: 1.6em;
+    margin: 0;
+}
+
+.Box-1{
+    background-color: #333;
 }
