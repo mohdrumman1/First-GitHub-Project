@@ -1,0 +1,12 @@
+FrontEnd Simplified
+
+Start up :
+Visual Studio
+Live Server and Emmet
+
+Github
+
+Week 1:
+Youtube Videos:
+introduction to HTML: HTML crash course for absolute beginners (1:00:00)
+introduction to CSS: cSS crash course for absolute beginner(1:25:00)
