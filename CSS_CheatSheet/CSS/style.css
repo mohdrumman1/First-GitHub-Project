@@ -3,4 +3,11 @@ body{
     color: darkgrey;
 
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+
+    /*Same as above*/
+    font: normal 18px Arial, Helvetica, sans-serif;
+
+    line-height: 1.6em;
 }
