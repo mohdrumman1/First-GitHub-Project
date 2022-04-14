@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     background-color: #f4f4f4;
     color: darkgrey;
@@ -14,10 +19,14 @@ body{
 }
 
 .container{
-    width: 500px;
+    width: 80%;
+    margin: auto;
 }
 
 .Box-1{
     background-color: #333;
     color: white;
+    border: 5px red solid;
+
+    padding-top: 20px;
 }
