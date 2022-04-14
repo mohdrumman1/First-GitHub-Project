@@ -20,6 +20,23 @@ body{
     margin: 0;
 }
 
+a{
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover{
+    color: red;
+}
+
+a:active{
+    color: green;
+}
+
+a:visited{
+    color: black;
+}
+
 .container{
     width: 80%;
     margin: auto;
@@ -47,5 +64,27 @@ body{
     border: 3px dotted #ccc;
     padding: 20px;
     margin: 20px 0;
-    
+}
+
+.categories{
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 15px;
+
+}
+
+.categories h2{
+    text-align: center;
+}
+
+.categories ul{
+    padding: 20px;
+    /*change the style of the bullet points, Can also remove them all together by typing none*/
+    list-style: square;
+    list-style: none;
+}
+
+.categories li{
+    padding: 8px;
+    border: dotted 1px #333;
 }
