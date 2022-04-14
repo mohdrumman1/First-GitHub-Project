@@ -32,5 +32,11 @@ body{
 
     padding: 20px;
 
-    margin: 20px;
+    margin: 20px 0;
+}
+
+.Box-1 h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    font-style: italic;
 }
