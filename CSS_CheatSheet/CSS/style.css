@@ -148,6 +148,10 @@ a:active{
     border: 1px solid black;
     margin: 30px;
     position: relative;
+    background-image: url('../../images/bgimg.jpg');
+    background-position: 100px 200px;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 .positioningBox h1{
@@ -159,4 +163,22 @@ a:active{
 .fix-me{
     position: fixed;
     top: 400px;
+}
+
+.myList li:first-child{
+    background: red;
+
+}
+
+.myList li:last-child{
+    background: blue;
+
+}
+
+.myList li:nth-child(5){
+    background-color: yellow;
+}
+
+.myList li:nth-child(even){
+    background-color: grey;
 }
