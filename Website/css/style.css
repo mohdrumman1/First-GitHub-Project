@@ -1,0 +1,55 @@
+body{
+    background-color: lightgray;
+    color: #555;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#mainHeader{
+    background-color: coral;
+    color: white;
+}
+
+#navBar{
+    background-color: #333;
+    color: white;
+}
+
+#navBar ul{
+    padding: 0;
+    list-style-type: none;
+}
+
+#navBar li{
+    display: inline;
+}
+
+#navBar a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 15px;
+}
+
+#showcase{
+    background-image: url('../images/showcase.jpg');
+    background-position: center right;
+    height: 300px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#showcase h1{
+    color: white;
+    font-size: 50px;
+    line-height: 1.6em;
+    padding: 30px;
+}
