@@ -42,7 +42,7 @@ body{
 #showcase{
     background-image: url('../images/showcase.jpg');
     background-position: center right;
-    height: 300px;
+    min-height: 300px;
     margin-bottom: 30px;
     text-align: center;
 }
@@ -52,4 +52,40 @@ body{
     font-size: 50px;
     line-height: 1.6em;
     padding: 30px;
+}
+
+#main{
+    float: left;
+    width: 70%;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+
+#sideBar{
+    float: right;
+    width: 30%;
+    background: #333;
+    color: white;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#mainFooter{
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+@media(max-width:600px){
+    #main{
+        width: 100%;
+        float: none;
+    }
+
+    #sideBar{
+        width: 100%;
+        float: none;
+    }
 }
