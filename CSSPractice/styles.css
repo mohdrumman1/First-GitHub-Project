@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 .box{
     border: 4px solid lightgray;
     width: 100px;
@@ -23,14 +27,88 @@
     align-items: center;
 }
 
+/****************************************************************************************/
+
 .container2{
     border: 4px solid lightgray;
-    padding: 24px;
+    padding: 24px 24px 0 24px;
     margin-bottom: 24px;
+}
+
+.row{
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 .title{
     border: 2px solid lightgray;
     width: 100%;
     height: 24px;
+    margin-bottom: 24px;
+}
+
+.boxwrap2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.box2{
+    border: 4px solid lightgray;
+    width: 30%;
+    height: 100px;
+    margin-bottom: 24px;
+}
+
+/****************************************************************************************/
+
+.container3{
+    border: 4px solid lightgray;
+    padding: 24px 24px 0 24px;
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.box3{
+    border: 4px solid lightgray;
+    margin-bottom: 24px;
+}
+
+.boxsmall3{
+    height: 50px;
+}
+
+.box3Large{
+    width: 50%;
+}
+
+.boxwrap3{
+    width: 50%;
+    padding-right: 24px;
+}
+
+/****************************************************************************************/
+
+.container4{
+    border: 4px solid lightgray;
+    padding: 80px 24px 56px 24px;
+}
+
+.boxtiny{
+    width: 30%;
+    height: 50px;
+}
+
+.tinywrap{
+    display: flex;
+    justify-content: space-between;
+}
+
+.row4{
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
 }
