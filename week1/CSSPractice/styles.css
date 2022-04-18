@@ -92,7 +92,7 @@
 
 .container4{
     border: 4px solid lightgray;
-    padding: 80px 24px 56px 24px;
+    padding: 80px 24px 80px 24px;
 }
 
 .boxtiny{
@@ -108,7 +108,7 @@
 .row4{
     width: 100%;
     max-width: 600px;
-    margin: 0 auto;
+    margin: 0 auto -24px auto;
     display: flex;
     justify-content: space-between;
 }
