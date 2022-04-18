@@ -5,17 +5,75 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <section>
         <nav>
-            <img src="./assets/FES.svg" alt="">
+            <img src="./assets/FES.svg" class="logo" alt="">
             <ul>
                 <li><a href="#about">About</a></li>
-                <li><a href="#about">Discord</a></li>
-                <li><a href="#about">Contact</a></li>
+                <li><a href="#Discord">Discord</a></li>
+                <li><a href="#Contact">Contact</a></li>
             </ul>
         </nav>
+        <header>
+            <div>
+                <h1>Best place to learn frontend</h1>
+                <p>Go from being an absolute beginner to a pro</p>
+                <button>Start Now</button>
+            </div>
+            <figure>
+                <img src="./assets/laptop.png" alt="Home Page Image">
+            </figure>
+        </header>
     </section>
+
+    <main>
+        <section id="about">
+            <h2>About</h2>
+            <div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus amet iure ab quibusdam sit cum repellendus quia ratione esse earum ea libero repellat, omnis numquam odio. Possimus ad nisi fugit?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus amet iure ab quibusdam sit cum repellendus quia ratione esse earum ea libero repellat, omnis numquam odio. Possimus ad nisi fugit?</p>
+            </div>
+            <figure>
+                <img src="./assets/about.jpg" alt="About">
+            </figure>
+        </section>
+
+        <section id="discord">
+            <h2>Discord</h2>
+            <figure>
+                <img src="./assets/discord.png" alt="Discord">
+            </figure>
+            <div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus amet iure ab quibusdam sit cum repellendus quia ratione esse earum ea libero repellat, omnis numquam odio. Possimus ad nisi fugit?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus amet iure ab quibusdam sit cum repellendus quia ratione esse earum ea libero repellat, omnis numquam odio. Possimus ad nisi fugit?</p>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <form>
+                <label>Email</label>
+                <input type="text" placeholder="jane@example.com ">
+
+                <label>Message</label>
+                <textarea type="text"></textarea>
+                <button> Send </button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <img src="./assets/FES.svg" alt="">
+        <div>
+            <a href="#about">About</a>
+            <a href="#discord">Discors</a>
+            <a href="#contact">Contact</a>
+            <a href="#about">Courses</a>
+        </div>
+        <p>Copyright &copy; 2022</p>
+    </footer>
 </body>
 </html>
