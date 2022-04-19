@@ -18,37 +18,48 @@
             </ul>
         </nav>
         <header>
-            <div>
-                <h1>Best place to learn frontend</h1>
-                <p>Go from being an absolute beginner to a pro</p>
-                <button>Start Now</button>
+            <div class="row">
+                <div>
+                    <h1>Best place to learn frontend</h1>
+                    <p class="subheader">Go from being an absolute beginner to a pro</p>
+                    <button>Start Now</button>
+                </div>
+                <figure>
+                    <img src="./assets/laptop.png" alt="Home Page Image">
+                </figure>
             </div>
-            <figure>
-                <img src="./assets/laptop.png" alt="Home Page Image">
-            </figure>
         </header>
     </section>
 
     <main>
         <section id="about">
             <h2>About</h2>
-            <div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus amet iure ab quibusdam sit cum repellendus quia ratione esse earum ea libero repellat, omnis numquam odio. Possimus ad nisi fugit?</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus amet iure ab quibusdam sit cum repellendus quia ratione esse earum ea libero repellat, omnis numquam odio. Possimus ad nisi fugit?</p>
+            <div class="row">
+                <div class="section_description">
+                    <div class="section_description-wrapper">
+                        <p class="section_description-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus amet iure ab quibusdam sit cum repellendus quia ratione esse earum ea libero repellat, omnis numquam odio. Possimus ad nisi fugit?</p>
+                        <p class="section_description-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus amet iure ab quibusdam sit cum repellendus quia ratione esse earum ea libero repellat, omnis numquam odio. Possimus ad nisi fugit?</p>
+                    
+                    </div>
+                    <figure class="about_img-wrapper">
+                        <img src="./assets/about.jpg" alt="About">
+                    </figure>
+                </div>
             </div>
-            <figure>
-                <img src="./assets/about.jpg" alt="About">
-            </figure>
         </section>
 
         <section id="discord">
             <h2>Discord</h2>
-            <figure>
-                <img src="./assets/discord.png" alt="Discord">
-            </figure>
-            <div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus amet iure ab quibusdam sit cum repellendus quia ratione esse earum ea libero repellat, omnis numquam odio. Possimus ad nisi fugit?</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus amet iure ab quibusdam sit cum repellendus quia ratione esse earum ea libero repellat, omnis numquam odio. Possimus ad nisi fugit?</p>
+            <div class="row"></div>
+                <div class="section_description">
+                    <figure class="about_img-wrapper">
+                        <img src="./assets/discord.png" alt="Discord">
+                    </figure>
+                    <div class="section_description-wrapper">
+                        <p class="section_description-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus amet iure ab quibusdam sit cum repellendus quia ratione esse earum ea libero repellat, omnis numquam odio. Possimus ad nisi fugit?</p>
+                        <p class="section_description-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus amet iure ab quibusdam sit cum repellendus quia ratione esse earum ea libero repellat, omnis numquam odio. Possimus ad nisi fugit?</p>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -56,22 +67,22 @@
             <h2>Contact</h2>
             <form>
                 <label>Email</label>
-                <input type="text" placeholder="jane@example.com ">
+                <input type="email" placeholder="jane@example.com ">
 
                 <label>Message</label>
                 <textarea type="text"></textarea>
-                <button> Send </button>
+                <button> Contact Us! </button>
             </form>
         </section>
     </main>
 
     <footer>
-        <img src="./assets/FES.svg" alt="">
-        <div>
-            <a href="#about">About</a>
-            <a href="#discord">Discors</a>
-            <a href="#contact">Contact</a>
-            <a href="#about">Courses</a>
+        <img class="footer_logo" src="./assets/FES.svg" alt="">
+        <div class="footer_links">
+            <a class="footer_links" href="#discord">Discord</a>
+            <a class="footer_links" href="#about">About</a>
+            <a class="footer_links" href="#contact">Contact</a>
+            <a class="footer_links" href="#about">Courses</a>
         </div>
         <p>Copyright &copy; 2022</p>
     </footer>
