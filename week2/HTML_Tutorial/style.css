@@ -139,6 +139,7 @@ form{
     margin: 0 auto;
     display: flex;
     flex-direction: column;
+    padding: 0 24px;
 }
 
 input, 
@@ -173,5 +174,63 @@ footer{
 @media(max-width: 720px){
     .row{
         flex-direction: column;
+    }
+
+    .home_description{
+        margin-top: 270px;
+        margin-bottom: 24px;
+        padding-bottom: 48px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .home_description-button{
+        max-width: 240px;
+        align-items: center;
+    }
+
+    h1{
+        text-align: center;
+        font-size: 60px;
+    }
+
+    .subheader{
+        text-align: center;
+        font-size: 20px;
+    }
+
+    ul{
+        display: none;
+    }
+
+    .section_description{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section_description-wrapper{
+        width: 100%;
+    }
+
+    .about_img-wrapper{
+        width: 100%;
+    }
+
+    #discord.section_description{
+        flex-direction: column-reverse;
+    }
+
+    footer{
+        padding: 48px 24px;
+    }
+
+    .footer_logo{
+        max-width: 360px;
+    }
+
+    .footer_links{
+        padding: 0 4px;
+        font-size: 18px;
+        margin-bottom: 24px;
     }
 }
