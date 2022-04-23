@@ -147,6 +147,12 @@ button:active{
 
 }
 
+.row__column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 /* HIGHLIGHTS */
 
 #highlights{
@@ -221,6 +227,7 @@ button:active{
 
 .books{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .book{
@@ -248,4 +255,30 @@ button:active{
 .book__title{
     font-size: 20px;
     margin-bottom: 8px;
+    text-align: center;
+}
+
+.book__title:hover{
+    text-decoration: underline;
+    cursor: no-drop;
+}
+
+.book__rating{
+    margin-bottom: 8px;
+    color: #fabf28;
+    display: flex;
+    justify-content: center;
+}
+
+.book__price--normal{
+    margin-left: 24px;
+    text-decoration: line-through;
+    padding-right: 6px;
+    color: #bfbfbf
+}
+
+/* EXPLORE */
+
+#explore{
+    background-color: rgba(115, 66, 214, 0.1);
 }
