@@ -13,4 +13,8 @@ function increment(){
 function save(){
     dash = count + " - "
     saveEl.textContent += dash
+    count = 0
+    countEl.textContent = count
 }
+
+console.log("Let's count the number of people entering the train")
