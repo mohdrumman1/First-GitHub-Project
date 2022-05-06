@@ -6,11 +6,11 @@ let count = 0
 
 function increment(){
     count += 1
-    countEl.innerText = count
+    countEl.textContent = count
 }
  
 
 function save(){
     dash = count + " - "
-    saveEl.innerText += dash
+    saveEl.textContent += dash
 }
