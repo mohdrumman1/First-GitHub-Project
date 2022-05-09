@@ -1,24 +1,29 @@
 
-let firstCard = 10//(Math.random() * 11) + 2
-let secondCard = 11//(Math.random() * 11) + 2
+let firstCard = 10 //(Math.random() * 11) + 2
+let secondCard = 11 //(Math.random() * 11) + 2
 let sum = firstCard + secondCard
 let hasBlackJack = false
 let isAlive = true
 let message = ""
+let messageEl = document.getElementById("message-el")
+let sumEl = document.getElementById("sum-el")
+//let sumEl = document.querySelector("#sum-el")
 
-if(sum <= 20){
-    message = "Do you want to draw a new card? :)"
-    console.log(message)
-}
-else if(sum === 21){
-    message = "Congratulations! You've won!"
-    console.log(message)
-    hasBlackJack = true
-}
-else{
-    message = "You're out of the game :( "
-    console.log(message)
-    isAlive = false
-}
+function startGame(){
 
- console.log(hasBlackJack)
+    sumEl.textContent = "Sum: " + sum
+
+    if(sum <= 20){
+        message = "Do you want to draw a new card?"
+    }
+    else if(sum === 21){
+        message = "You've got Blackjack"
+        hasBlackJack = true
+    }
+    else{
+        message = "You're out of the game"
+        isAlive = false
+    }
+
+    messageEl.textContent = message
+}
