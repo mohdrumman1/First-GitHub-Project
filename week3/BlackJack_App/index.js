@@ -1,19 +1,23 @@
 
-let firstCard = (Math.random() * 11) + 2
-let secondCard = (Math.random() * 11) + 2
+let firstCard = 10//(Math.random() * 11) + 2
+let secondCard = 11//(Math.random() * 11) + 2
 let sum = firstCard + secondCard
 let hasBlackJack = false
 let isAlive = true
+let message = ""
 
 if(sum <= 20){
-    console.log("Do you want to draw a new card?")
+    message = "Do you want to draw a new card? :)"
+    console.log(message)
 }
 else if(sum === 21){
-    console.log("Congratulations! You've won!")
+    message = "Congratulations! You've won!"
+    console.log(message)
     hasBlackJack = true
 }
 else{
-    console.log("You're out of the game :( ")
+    message = "You're out of the game :( "
+    console.log(message)
     isAlive = false
 }
 
