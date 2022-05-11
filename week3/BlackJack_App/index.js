@@ -18,7 +18,7 @@ function startGame(){
 function renderGame(){
 
     //cardsEl.textContent = "Cards: " + firstCard + " " + secondCard
-    cardsEl.textContent = "Cards: " + cards[0] + " " + cards[1] + " " + thirdCard 
+    cardsEl.textContent = "Cards: " + cards[0] + " " + cards[1] 
     sumEl.textContent = "Sum: " + sum
 
     if(sum <= 20){
@@ -40,9 +40,11 @@ function newCard(){
     message = "Drawing a new card..."
     messageEl.textContent = message
     
-    cards[3] = 7
+    let card = 7
+    sum += card
 
-    sum += cards[3]
+    cards.push(card)
+    console.log(cards)
 
     renderGame()
 }
