@@ -1,4 +1,5 @@
 let myLeads = []
+let oldLeads = []
 const inputEl = document.getElementById("input-el")
 const inputBtn = document.getElementById("input-btn")
 const ulEl = document.getElementById("ul-el")
@@ -7,7 +8,7 @@ const leadsFromStorage = JSON.parse(localStorage.getItem("myLeads"))
 
 if(leadsFromStorage){
     myLeads = leadsFromStorage
-    renderLeads()
+    renderLeads(myLeads)
 }
 
 function renderLeads(){
